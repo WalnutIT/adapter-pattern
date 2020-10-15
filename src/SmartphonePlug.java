@@ -1,6 +1,3 @@
-import sockets.SocketAdapter;
-import sockets.SocketTypeF;
-import sockets.SocketTypeG;
 
 /**
  * Copyright 2020 - 2020 the original author or authors.
@@ -17,6 +14,9 @@ import sockets.SocketTypeG;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import sockets.SocketAdapter;
+import sockets.SocketTypeF;
+import sockets.SocketTypeG;
 
 /**
  * @author Daniel Krentzlin

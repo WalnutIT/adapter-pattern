@@ -25,37 +25,7 @@ public class AdapterPattern {
 	 */
 	public static void main(String[] args) {
 
-		SmartphonePlug smartphonePlug = SmartphonePlug
-				.getSmartphonePlug();
-
-		// Example without adapter and a non type G smartphone plug
-
-		System.out.println(
-				"Example 1: Example without adapter and a non type G smartphone plug\n");
-
-		boolean isTypeG = false;
-
-		if (smartphonePlug.plugToTypeG(isTypeG)) {
-			System.out.println("Smartphone can be recharged");
-		} else {
-			System.out.println(
-					"You cannot plug a non type G plug to a type G socket.");
-		}
-
-		System.out.println("\n\n");
-
-		// Example with adapter and a non type G smartphone plug
-		System.out.println(
-				"Example 2: Example with adapter and a non type G smartphone plug\n");
-
-		boolean adapterIsPlugged = true;
-
-		if (smartphonePlug.plugToTypeF(adapterIsPlugged)) {
-			System.out.println("Smartphone can be recharged");
-		} else {
-			System.out.println(
-					"Please, plug the socket adapter into type G socket");
-		}
+		Client.runClient();
 
 	}
 
